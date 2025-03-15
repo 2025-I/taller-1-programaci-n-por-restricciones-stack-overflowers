@@ -100,7 +100,7 @@ En MiniZinc, la distribución de valores en las variables puede influir signific
       solve :: int_search(grid, first_fail, complete) satisfy;
    ```
 
-   ![Árbol de búsqueda - first_fail](./images/arbol-kakuro-first_fail.png)
+   ![Árbol de búsqueda - first_fail](./images/arbol-kakuro-first_tail.png)
 
 2. **smallest**: Prioriza la asignación de valores a las variables con los valores más pequeños en su dominio.
 
