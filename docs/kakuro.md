@@ -100,7 +100,7 @@ En MiniZinc, la distribución de valores en las variables puede influir signific
       solve :: int_search(grid, first_fail, complete) satisfy;
    ```
 
-   ![./images/arbol-kakuro-first_tail.png]
+   ![Árbol de búsqueda - first_fail](./images/arbol-kakuro-first_fail.png)
 
 2. **smallest**: Prioriza la asignación de valores a las variables con los valores más pequeños en su dominio.
 
@@ -108,7 +108,7 @@ En MiniZinc, la distribución de valores en las variables puede influir signific
       solve :: int_search(grid, smallest, complete) satisfy;
    ```
 
-   ![./images/arbol-kakuro-smallest.png]
+   ![Árbol de búsqueda - smallest](./images/arbol-kakuro-smallest.png)
 
 3. **input_order**: Asigna valores en el orden en que las variables aparecen en el modelo, sin heurísticas avanzadas.
 
@@ -116,7 +116,7 @@ En MiniZinc, la distribución de valores en las variables puede influir signific
       solve :: int_search(grid, input_order, complete) satisfy;
    ```
 
-   ![./images/arbol-kakuro-input_order.png]
+   ![Árbol de búsqueda - input_order](./images/arbol-kakuro-input_order.png)
 
 ### 4.2 Comparación de resultados
 
@@ -130,12 +130,17 @@ Se ejecutaron pruebas con una cuadrícula de tamaño $5 \times 5$ con diferentes
 
 ### 4.3 Evidencias
 
-1. first_fail
-   ![./images/kakuro-first_first.png]
-2. smallest
-   ![./images/kakuro-smallest.png]
-3. input_order
-   ![./images/kakuro-input_order.png]
+#### `first_fail`
+
+![Estrategia first_fail](./images/kakuro-first_fail.png)
+
+#### `smallest`
+
+![Estrategia smallest](./images/kakuro-smallest.png)
+
+#### `input_order`
+
+![Estrategia input_order](./images/kakuro-input_order.png)
 
 ## 5. Conclusiones
 
