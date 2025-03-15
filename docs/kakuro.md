@@ -132,7 +132,7 @@ Se ejecutaron pruebas con una cuadrícula de tamaño $5 \times 5$ con diferentes
 
 #### `first_fail`
 
-![Estrategia first_fail](./images/kakuro-first_fail.png)
+![Estrategia first_fail](./images/kakuro-first_first.png)
 
 #### `smallest`
 
