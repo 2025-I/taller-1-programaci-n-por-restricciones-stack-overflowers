@@ -6,7 +6,7 @@
 
 Nombre completo | Código
 Juan Manuel Arango Rodas | 2259571
-Alex Garcia Castañeda| 2259XXX
+Alex Garcia Castañeda| 2259517
 
 ## Descripción del taller
 
